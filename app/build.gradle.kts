@@ -59,7 +59,7 @@ android {
             versionNameSuffix = "-fosscord"
 
             buildConfigField("String", "URL_API", "\"http://api.n3rdp0rt4l.duckdns.org:3003/api/v9\"")
-            buildConfigField("String", "URL_CDN", "\"http://api.n3rdp0rt4l.duckdns.org:3003\"")
+            buildConfigField("String", "URL_CDN", "\"http://n3rdp0rt4l.duckdns.org:3003\"")
             buildConfigField(
                 "String",
                 "URL_GATEWAY",
