@@ -35,11 +35,11 @@ jobs:
           name: discord
           path: app/build/outputs/apk/discord/debug/app-discord-debug.apk
 
-#      - name: Build Fosscord variant
-#        run: ./gradlew assembleFosscordDebug
-#
-#      - name: Upload Fosscord APK
-#        uses: actions/upload-artifact@v2
-#        with:
-#          name: fosscord
-#          path: app/build/outputs/apk/fosscord/debug/app-fosscord-debug.apk
+      - name: Build Fosscord variant
+        run: ./gradlew assembleFosscordDebug
+
+      - name: Upload Fosscord APK
+        uses: actions/upload-artifact@v2
+        with:
+          name: fosscord
+          path: app/build/outputs/apk/fosscord/debug/app-fosscord-debug.apk
