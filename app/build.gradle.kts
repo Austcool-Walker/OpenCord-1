@@ -63,7 +63,7 @@ android {
             buildConfigField(
                 "String",
                 "URL_GATEWAY",
-                "\"ws://gateway.fosscord.com/?v=9&encoding=json&compress=zlib-stream\""
+                "\"ws://gateway.n3rdp0rt4l.duckdns.org:3003/?v=9&encoding=json&compress=zlib-stream\""
             )
         }
     }
