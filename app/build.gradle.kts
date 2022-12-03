@@ -58,12 +58,12 @@ android {
             applicationIdSuffix = ".fosscord"
             versionNameSuffix = "-fosscord"
 
-            buildConfigField("String", "URL_API", "\"http://api.n3rdp0rt4l.duckdns.org:3003/api/v9\"")
-            buildConfigField("String", "URL_CDN", "\"http://n3rdp0rt4l.duckdns.org:3003\"")
+            buildConfigField("String", "URL_API", "\"http://n3rdp0rt4l.duckdns.org:9999/api/v9\"")
+            buildConfigField("String", "URL_CDN", "\"http://n3rdp0rt4l.duckdns.org:9999\"")
             buildConfigField(
                 "String",
                 "URL_GATEWAY",
-                "\"ws://gateway.n3rdp0rt4l.duckdns.org:3003/?v=9&encoding=json&compress=zlib-stream\""
+                "\"ws://gateway.n3rdp0rt4l.duckdns.org:9999/?v=9&encoding=json&compress=zlib-stream\""
             )
         }
     }
